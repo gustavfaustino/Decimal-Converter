@@ -1,9 +1,3 @@
-# O menu deverá contar com uma opção para encerrar a aplicação e outra destinada aos dados
-# do projeto, conforme descrito abaixo:
-# - Curso;
-# - Componentes do grupo;
-# - Disciplinas envolvidas;
-# - Versão do aplicativo
 
 import os
 os.system('cls')
