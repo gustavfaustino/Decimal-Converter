@@ -43,7 +43,7 @@ while True:
                 bina = str(r) + bina
                 decimal = decimal//2
 
-            print(f'O número {original} em Binário é: {bina}')
+            print(f'O número {original} em Binário é: ({bina})²')
             print('--------'*12)
             input('Aperte "Enter" para voltar ao menu...')
             os.system('cls')
@@ -62,7 +62,7 @@ while True:
                 else:
                     hexa = chr(resto+55) + hexa
                 decimal = decimal // 16
-            print(f'O número {original} em Hexadecimal é: {hexa}')
+            print(f'O número {original} em Hexadecimal é: ({hexa})¹⁶')
             print('--------'*12)
             input('Aperte "Enter" para voltar ao menu...')
             os.system('cls')
@@ -79,7 +79,7 @@ while True:
                 octa = str(resto) + octa
                 decimal = decimal//8
             
-            print(f'O número {original} em Octadecimal é: {octa}')
+            print(f'O número {original} em Octadecimal é: ({octa})⁸')
             print('--------'*12)
             input('Aperte "Enter" para voltar ao menu...')
             os.system('cls')
